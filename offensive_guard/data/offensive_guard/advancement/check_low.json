@@ -1,0 +1,19 @@
+{
+	"criteria":{
+		"check_hit":{
+			"trigger":"minecraft:entity_hurt_player",
+			"conditions":{
+				"damage":{
+					"blocked":true,
+					"dealt":{
+						"min":1.0,
+						"max":2.0
+					}
+				}
+			}
+		}
+	},
+	"rewards":{
+		"function":"offensive_guard:do_low"
+	}
+}
